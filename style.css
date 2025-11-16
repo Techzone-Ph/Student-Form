@@ -1,0 +1,58 @@
+.Mydiv {
+    text-align: center;
+    color: black;
+    margin-bottom: 30px;
+}
+
+body {
+    font-family: Poppins; Sans-Serif;
+    background-image: url('https://i.pinimg.com/736x/67/7c/ff/677cfff898e24d954dd5f8206d9303df.jpg');
+    background-position: center-fixed;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.form {
+    text-align: center;
+    background-color: #FFF;
+    padding: 20px 40px;
+    margin: 15px;
+    width: 350px;
+    border-radius: 8px;
+    backdrop-filter: blur(0.3px);
+    background-color: rgba(255, 255, 255, 0.3);
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 20px;
+    cursor: pointer;
+    font-size: 14px;
+      }
