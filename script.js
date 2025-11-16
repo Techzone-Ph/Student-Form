@@ -29,6 +29,8 @@ document.addEventListener("DOMContentLoaded", () => {
     if(el.id === "age") el.value = el.value.replace(/\D/g, "").slice(0,2);
     const valid = pattern.test(el.value.trim());
 
+    el.style.backgroundColor = "#fff";
+
     if(valid) {
       el.style.border = "1px solid #ccc";
       errorEl.textContent = "";
@@ -81,6 +83,7 @@ document.addEventListener("DOMContentLoaded", () => {
       fieldsOrder.forEach(id => {
         const el = document.getElementById(id);
         el.style.border = "1px solid #ccc";
+        el.style.backgroundColor = "#fff";
         el.nextElementSibling.textContent = "";
       });
     }
